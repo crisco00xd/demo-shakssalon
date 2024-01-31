@@ -20,7 +20,7 @@ export default function Promo({ promo }) {
 					<Image
 						className='promo__image promo__image--1'
 						width={315}
-						height={680}
+						height={460}
 						src={'https:' + images[0].fields.file.url}
 						alt={images[0].fields.title}
 						loading='lazy'
@@ -30,13 +30,13 @@ export default function Promo({ promo }) {
 						src={'https:' + images[2].fields.file.url}
 						alt={images[2].fields.title}
 						width={315}
-						height={680}
+						height={460}
 						loading='lazy'
 					/>
 					<Image
 						className='promo__image promo__image--2'
 						width={315}
-						height={680}
+						height={460}
 						src={'https:' + images[1].fields.file.url}
 						alt={images[1].fields.title}
 						loading='lazy'
@@ -44,7 +44,7 @@ export default function Promo({ promo }) {
 					<Image
 						className='promo__image promo__image--4'
 						width={315}
-						height={680}
+						height={460}
 						src={'https:' + images[3].fields.file.url}
 						alt={images[3].fields.title}
 						loading='lazy'
@@ -52,7 +52,7 @@ export default function Promo({ promo }) {
 					<Image
 						className='promo__image promo__image--5'
 						width={315}
-						height={680}
+						height={460}
 						src={'https:' + images[4].fields.file.url}
 						alt={images[4].fields.title}
 						loading='lazy'
@@ -60,7 +60,7 @@ export default function Promo({ promo }) {
 					<Image
 						className='promo__image promo__image--6'
 						width={315}
-						height={680}
+						height={460}
 						src={'https:' + images[5].fields.file.url}
 						alt={images[5].fields.title}
 						loading='lazy'
