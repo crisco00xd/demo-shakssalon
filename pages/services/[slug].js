@@ -12,7 +12,7 @@ const client = createClient({
 });
 
 export const getStaticPaths = async () => {
-	const res = await client.getEntries({ content_type: 'service' });
+	const res = await client.getEntries({ content_type: 'services' });
 
 	const paths = res.items.map((item) => {
 		return {
@@ -28,7 +28,7 @@ export const getStaticPaths = async () => {
 
 export async function getStaticProps({ params }) {
 	const { items } = await client.getEntries({
-		content_type: 'service',
+		content_type: 'services',
 		'fields.slug': params.slug,
 	});
 

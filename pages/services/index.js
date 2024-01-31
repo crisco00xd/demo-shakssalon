@@ -11,13 +11,16 @@ export async function getStaticProps() {
 		accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
 	});
 
-	const service = await client.getEntries({ content_type: 'service' });
+	const service = await client.getEntries({ 
+		content_type: 'services',
+	});
+
 	const page = await client.getEntries({
 		content_type: 'page',
 		limit: 1,
 		'fields.slug': 'services',
 	});
-	const cta = await client.getEntry('5F7tVopJjX7dLdCjOVjBLh');
+	const cta = await client.getEntry('3pNpjao0HvDwKHjEO3p715');
 
 	return {
 		props: {
