@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  grid-template-columns:
+    [full-start] minmax(8rem, 1fr)
+    [center-start] minmax(min-content, 1380px) [center-end]
+    minmax(8rem, 1fr) [full-end];
+
+  @media (max-width: 480px) {
+    grid-template-columns:
+      [full-start] minmax(4rem, 1fr)
+      [center-start] minmax(min-content, 1380px) [center-end]
+      minmax(4rem, 1fr) [full-end];
+  }
+
+  @media (max-width: 350px) {
+    grid-template-columns:
+      [full-start] minmax(2rem, 1fr)
+      [center-start] minmax(min-content, 1380px) [center-end]
+      minmax(2rem, 1fr) [full-end];
+  }
+}

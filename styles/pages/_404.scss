@@ -1,0 +1,17 @@
+.error-page {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+	&__title {
+		font-family: $header-font-stack;
+		font-size: 45rem;
+		font-weight: 600;
+	}
+
+	// &__text {
+	// 	max-width: 50%;
+	// }
+}

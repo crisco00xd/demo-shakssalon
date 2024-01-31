@@ -1,0 +1,29 @@
+.section-header {
+	text-align: center;
+	margin-bottom: 8rem;
+
+	&__title {
+		letter-spacing: 0.15px;
+		// margin-bottom: 4rem;
+		line-height: 7rem;
+
+		&--script {
+			font-family: $script-font-stack;
+			font-size: 5rem;
+			line-height: 6rem;
+
+			@media (min-width: 800px) {
+				font-size: 7.2rem;
+			}
+		}
+	}
+
+	&__subtitle {
+		@media (min-width: 800px) {
+			font-size: 1.8rem;
+			font-weight: 400;
+			line-height: 3.6rem;
+			letter-spacing: 0.15px;
+		}
+	}
+}

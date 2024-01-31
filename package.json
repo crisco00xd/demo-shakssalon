@@ -1,0 +1,23 @@
+{
+	"name": "next-salon",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"@carbon/icons": "^11.15.0",
+		"@carbon/icons-react": "^11.15.0",
+		"@contentful/rich-text-react-renderer": "^15.11.1",
+		"@sendgrid/mail": "^7.6.1",
+		"@splidejs/react-splide": "^0.6.17",
+		"contentful": "^9.1.5",
+		"next": "^13.1.2",
+		"phosphor-react": "^1.4.0",
+		"react": "^18",
+		"react-dom": "^18",
+		"sass": "^1.49.0"
+	}
+}

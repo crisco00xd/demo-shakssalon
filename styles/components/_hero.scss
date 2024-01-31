@@ -1,0 +1,90 @@
+.hero {
+  // height: max-content;
+  position: relative;
+  padding: 5rem 0;
+  z-index: 0;
+
+  &:after {
+    content: "";
+    position: absolute;
+    height: 60rem;
+    width: 60rem;
+    background-color: rgba(28, 30, 42, 0.03);
+    border-radius: 50%;
+    left: -10rem;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    height: 25rem;
+    width: 25rem;
+    background-color: rgba(28, 30, 42, 0.03);
+    border-radius: 50%;
+    left: 10rem;
+    bottom: 0;
+    // @media (max-width: 800px) {
+    //   opacity: 0;
+    // }
+  }
+
+  &__title {
+    font-size: 3.6rem;
+    line-height: 60px;
+    letter-spacing: 0.15px;
+  }
+
+  &__text {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    margin-bottom: 6rem;
+  }
+
+  &__btn {
+    font-weight: 500;
+    width: max-content;
+    @media (max-width: 800px) {
+      margin: 0 auto;
+    }
+  }
+
+  &__caption {
+    align-self: center;
+    padding-right: 17rem;
+    z-index: 1;
+
+    @media (max-width: 1300px) {
+      padding-right: 0;
+    }
+
+    @media (max-width: 800px) {
+      text-align: center;
+    }
+  }
+
+  &__image {
+    height: 100%;
+    width: 100%;
+    background-color: #f3f3f3;
+    position: absolute;
+
+    @media (max-width: 800px) {
+      display: none;
+    }
+
+    &--one {
+      clip-path: circle(35.79% at 76.33% 74.06%);
+    }
+
+    &--bg {
+      background-color: #fff;
+      clip-path: circle(15.8% at 53.77% 18.44%);
+    }
+
+    &--two {
+      clip-path: circle(14.22% at 53.77% 18.44%);
+    }
+  }
+}

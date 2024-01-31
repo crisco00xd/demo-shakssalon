@@ -1,0 +1,24 @@
+.breadcrumbs {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+
+	&__item {
+		font-size: 1.6rem;
+		&:not(:last-child) {
+			&:after {
+				content: '-';
+				padding: 0 1.6rem;
+			}
+		}
+	}
+
+	&__link {
+		color: #1c1e2a7d;
+		transition: color 0.2s ease;
+		@include on-event {
+			color: #1c1e2a;
+		}
+	}
+}

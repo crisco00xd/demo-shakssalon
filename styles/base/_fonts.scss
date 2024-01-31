@@ -1,0 +1,107 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+// Inter Thin
+@font-face {
+	font-family: 'Inter';
+	src: url('/fonts/Inter/Inter-Thin.ttf');
+	font-weight: 100;
+	font-display: swap;
+}
+// Inter ExtraLight
+@font-face {
+	font-family: 'Inter';
+	src: url('/fonts/Inter/Inter-ExtraLight.ttf');
+	font-weight: 200;
+	font-display: swap;
+}
+// Inter Light
+@font-face {
+	font-family: 'Inter';
+	src: url('/fonts/Inter/Inter-Light.ttf');
+	font-weight: 300;
+	font-display: swap;
+}
+// Inter Regular
+@font-face {
+	font-family: 'Inter';
+	src: url('/fonts/Inter/Inter-Regular.ttf');
+	font-weight: 400;
+	font-display: swap;
+}
+// Inter Medium
+@font-face {
+	font-family: 'Inter';
+	src: url('/fonts/Inter/Inter-Medium.ttf');
+	font-weight: 500;
+	font-display: swap;
+}
+// Inter SemiBold
+@font-face {
+	font-family: 'Inter';
+	src: url('/fonts/Inter/Inter-SemiBold.ttf');
+	font-weight: 600;
+	font-display: swap;
+}
+// Inter Bold
+@font-face {
+	font-family: 'Inter';
+	src: url('/fonts/Inter/Inter-Bold.ttf');
+	font-weight: 700;
+	font-display: swap;
+}
+// Inter ExtraBold
+@font-face {
+	font-family: 'Inter';
+	src: url('/fonts/Inter/Inter-ExtraBold.ttf');
+	font-weight: 800;
+	font-display: swap;
+}
+// Inter Black
+@font-face {
+	font-family: 'Inter';
+	src: url('/fonts/Inter/Inter-Black.ttf');
+	font-weight: 900;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'BebasNeuePro';
+	src: url('/fonts/BebasNeuePro/BebasNeuePro-Thin.ttf');
+	font-weight: 100;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'BebasNeuePro';
+	src: url('/fonts/BebasNeuePro/BebasNeuePro-Light.ttf');
+	font-weight: 200;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'BebasNeuePro';
+	src: url('/fonts/BebasNeuePro/BebasNeuePro-Book.ttf');
+	font-weight: 300;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'BebasNeuePror';
+	src: url('/fonts/BebasNeuePro/BebasNeuePro-Regular.ttf');
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'BebasNeuePro';
+	src: url('/fonts/BebasNeuePro/BebasNeuePro-Middle.ttf');
+	font-weight: 500;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'BebasNeuePro';
+	src: url('/fonts/BebasNeuePro/BebasNeuePro-Bold.ttf');
+	font-weight: 600;
+	font-display: swap;
+}
