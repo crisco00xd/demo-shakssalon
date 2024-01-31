@@ -16,7 +16,7 @@ export async function getStaticProps() {
 		limit: 1,
 		'fields.slug': 'about-us',
 	});
-	const cta = await client.getEntry('5F7tVopJjX7dLdCjOVjBLh');
+	const cta = await client.getEntry('3pNpjao0HvDwKHjEO3p715');
 
 	return {
 		props: {
@@ -66,22 +66,44 @@ export default function About({ page, cta }) {
 							className={`tabs__nav-item ${
 								activeTab === 0 ? 'tabs__nav-item--active' : ''
 							}`}>
-							Our Skilled Team
+							Nuestra Misión
 						</li>
 						<li
 							onClick={() => handleTabChange(1)}
 							className={`tabs__nav-item ${
 								activeTab === 1 ? 'tabs__nav-item--active' : ''
 							}`}>
-							A Welcoming Atmosphere
+							Nuestros Valores
 						</li>
 						<li
 							onClick={() => handleTabChange(2)}
 							className={`tabs__nav-item ${
 								activeTab === 2 ? 'tabs__nav-item--active' : ''
 							}`}>
-							Our Goal
+							Nuestro Equipo
 						</li>
+						<li
+							onClick={() => handleTabChange(3)}
+							className={`tabs__nav-item ${
+								activeTab === 3 ? 'tabs__nav-item--active' : ''
+							}`}>
+							Nuestro Compromiso
+						</li>
+						<li
+							onClick={() => handleTabChange(4)}
+							className={`tabs__nav-item ${
+								activeTab === 4 ? 'tabs__nav-item--active' : ''
+							}`}>
+							Nuestro Futuro
+						</li>
+						<li
+							onClick={() => handleTabChange(5)}
+							className={`tabs__nav-item ${
+								activeTab === 5 ? 'tabs__nav-item--active' : ''
+							}`}>
+							Únete a Nuestra Comunidad
+						</li>
+
 					</ul>
 
 					<div className='tabs__content'>
@@ -90,34 +112,7 @@ export default function About({ page, cta }) {
 								activeTab === 0 ? 'tabs__content-item--active' : ''
 							}`}>
 							<p>
-								At Next Salon, our skilled team of stylists, makeup artists, and
-								nail technicians are trained in the latest techniques and are
-								dedicated to providing you with the highest level of service and
-								attention to detail.
-							</p>
-
-							<p>
-								We believe that client satisfaction is the key to our success,
-								which is why we always strive to go above and beyond for each
-								and every one of our clients. Our team members are passionate
-								about their craft, and are constantly working to improve their
-								skills and knowledge to ensure that we provide the best service
-								to our clients.
-							</p>
-
-							<p>
-								They have experience in different hair types, textures, and
-								styles, and will work with you to achieve the look you desire.
-								Whether you are looking for a classic cut, a modern style, or a
-								complete makeover, our team is here to help you achieve your
-								desired look.
-							</p>
-
-							<p>
-								We pride ourselves on providing a welcoming and professional
-								atmosphere at Next Salon, and our team is dedicated to making
-								sure that each and every client leaves feeling and looking their
-								best.
+							En Shaks Salon, nuestra misión es ofrecer un oasis de lujo donde la belleza, la sofisticación y la atención personalizada se unen para crear una experiencia inolvidable. Nos comprometemos a descubrir y cuidar la belleza que reside en cada uno de nuestros clientes, asegurándonos de que se vayan sintiéndose rejuvenecidos, seguros y empoderados.
 							</p>
 						</div>
 						<div
@@ -125,33 +120,7 @@ export default function About({ page, cta }) {
 								activeTab === 1 ? 'tabs__content-item--active' : ''
 							}`}>
 							<p>
-								At Next Salon, we understand the importance of creating a
-								welcoming and comfortable atmosphere for our clients. From the
-								moment you walk through our doors, you will be greeted by our
-								friendly and professional staff who are dedicated to making your
-								salon experience as enjoyable as possible.
-							</p>
-
-							<p>
-								Our salon is designed with your comfort in mind, and features a
-								relaxing and modern decor. We provide a clean, hygienic
-								environment and use high-quality, professional products to
-								ensure that every service we provide is of the highest standard.
-							</p>
-
-							<p>
-								We have a range of services to choose from, with something to
-								suit everyone, our salon is a place where you can relax, unwind
-								and be pampered. Our team will take the time to understand your
-								needs and preferences, and will work with you to create a
-								personalized experience that meets your individual needs.
-							</p>
-
-							<p>
-								Whether you are here for a quick cut and style, a luxurious spa
-								treatment, or a complete makeover, we are committed to providing
-								you with the highest level of service and attention to detail in
-								a welcoming and comfortable environment.
+							En Shaks Salon, nuestra misión es ofrecer un oasis de lujo donde la belleza, la sofisticación y la atención personalizada se unen para crear una experiencia inolvidable. Nos comprometemos a descubrir y cuidar la belleza que reside en cada uno de nuestros clientes, asegurándonos de que se vayan sintiéndose rejuvenecidos, seguros y empoderados.
 							</p>
 						</div>
 						<div
@@ -159,36 +128,31 @@ export default function About({ page, cta }) {
 								activeTab === 2 ? 'tabs__content-item--active' : ''
 							}`}>
 							<p>
-								At Next Salon, our goal is to provide our clients with the
-								highest level of service and attention to detail, in a welcoming
-								and comfortable atmosphere. We are committed to helping you look
-								and feel your best, whether you are here for a quick trim or a
-								complete makeover.
+							La creatividad, la compasión y la conexión son los pilares sobre los que se sostiene Shaks Salon. Somos un equipo de profesionales dedicados que consideramos la belleza como una forma de arte y a nuestros clientes como el lienzo. Nuestro salón es un lugar acogedor y cálido, donde cada persona es recibida con comprensión y el más alto nivel de servicio.
 							</p>
-
+						</div>
+						<div
+							className={`tabs__content-item ${
+								activeTab === 3 ? 'tabs__content-item--active' : ''
+							}`}>
 							<p>
-								Our team of skilled stylists, makeup artists, and nail
-								technicians are trained in the latest techniques and are
-								dedicated to providing you with the best service possible. We
-								understand that every client is unique, which is why we take the
-								time to understand your individual needs and preferences, and
-								work with you to create a personalized experience that meets
-								your specific needs.
+							El espíritu de Shaks Salon se manifiesta a través de nuestro excepcional equipo: un grupo de estilistas, coloristas y expertos en belleza altamente cualificados. Cada miembro aporta su experiencia y estilo único, creando una cultura de salón diversa y rica que se mantiene a la vanguardia de las últimas tendencias y técnicas en la industria de la belleza.
 							</p>
+						</div>
+						<div
+							className={`tabs__content-item ${
+								activeTab === 4 ? 'tabs__content-item--active' : ''
+							}`}>
 							<p>
-								We believe that client satisfaction is the key to our success,
-								which is why we always strive to go above and beyond for each
-								and every one of our clients. Our team is passionate about their
-								craft, and are constantly working to improve their skills and
-								knowledge to ensure that we provide the best service to our
-								clients.
+							Nos comprometemos a ofrecer a nuestros clientes un servicio y una atención sin igual. En Shaks Salon, utilizamos únicamente productos de primera calidad que cumplen con nuestros altos estándares de calidad y fuente ética. Estamos dedicados a crear una atmósfera que no solo realce tu belleza, sino que también infunda un sentido de bienestar y alegría.
 							</p>
+						</div>
+						<div
+							className={`tabs__content-item ${
+								activeTab === 5 ? 'tabs__content-item--active' : ''
+							}`}>
 							<p>
-								We are dedicated to providing a welcoming and professional
-								atmosphere at Next Salon, and our team is committed to making
-								sure that each and every client leaves feeling and looking their
-								best. We want you to leave our salon feeling refreshed,
-								rejuvenated, and confident.
+							En Shaks Salon, creemos que la belleza es un viaje, no solo un destino. Te invitamos a entrar en nuestro mundo, un mundo donde el cuidado, el lujo y el refinamiento se reflejan en cada aspecto de nuestro servicio. Únete a nosotros en Shaks Salon, donde cada visita es una oportunidad para realzar tu belleza y salir sintiéndote la mejor versión de ti mismo.
 							</p>
 						</div>
 					</div>
