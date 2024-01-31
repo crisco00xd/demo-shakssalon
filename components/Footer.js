@@ -1,14 +1,14 @@
-import Link from 'next/link';
-import SocialIconsDark from './SocialIconsDark';
-import SocialIconsLight from './Header/SocialIconsLight';
-import styles from '../styles/Footer.module.scss';
+import Link from "next/link";
+import SocialIconsDark from "./SocialIconsDark";
+import SocialIconsLight from "./Header/SocialIconsLight";
+import styles from "../styles/Footer.module.scss";
 
 export default function Footer() {
-	return (
-		<>
-			<footer className='grid footer'>
-				<div className='wrapper wrapper--footer'>
-					{/* <ul className={styles.links} role='list'>
+  return (
+    <>
+      <footer className="grid footer">
+        <div className="wrapper wrapper--footer">
+          {/* <ul className={styles.links} role='list'>
 						<li className={styles.links__item}>
 							<Link href='/' className={styles.links__link}>
 								Disclaimer and Privacy Policy
@@ -21,13 +21,15 @@ export default function Footer() {
 						</li>
 					</ul> */}
 
-					{/* <SocialIconsDark className={styles.social} /> */}
-					{/* <SocialIconsLight /> */}
-					<p className='footer__copy'>
-						© {new Date().getFullYear()} - Next Salon
-					</p>
+          {/* <SocialIconsDark className={styles.social} /> */}
+          {/* <SocialIconsLight /> */}
+          <p className="footer__copy">
+            <a style={{ color: "white" }} href="https://edgedevops.net/">
+              © {new Date().getFullYear()} - Powered By Cutting Edge
+            </a>
+          </p>
 
-					{/* <ul className={styles.details} role='list'>
+          {/* <ul className={styles.details} role='list'>
 						<li className={styles.details__item}>
 							<p className={styles.address}>
 								123 Main St, Suite 200, Anytown, UK 00000
@@ -42,8 +44,8 @@ export default function Footer() {
 							</a>
 						</li>
 					</ul> */}
-				</div>
-			</footer>
-		</>
-	);
+        </div>
+      </footer>
+    </>
+  );
 }
