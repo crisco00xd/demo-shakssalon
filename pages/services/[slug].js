@@ -84,7 +84,7 @@ export default function ServiceDetails({ service }) {
 
 					<div className='rich-text__description'>
 						<h2> {title} </h2>
-						{documentToReactComponents(description)}
+						<p>{description}</p>
 					</div>
 				</div>
 			</div>
